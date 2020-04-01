@@ -1,3 +1,4 @@
 CC=g++
+CXXFLAGS=-std=c++11
 all:
-	$(CC) -Wfatal-errors *.cpp
+	$(CC) $(CXXFLAGS) -Wfatal-errors *.cpp
